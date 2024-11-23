@@ -29,7 +29,7 @@
           :anime="anime"
         />
       </div>
-      <p v-if="animeList.length === 0">Nenhum anime encontrado.</p>
+      <p v-if="animeList.length === 0">No anime found.</p>
     </main>
   </div>
 </template>
@@ -166,9 +166,9 @@ body {
     to bottom,
     #ffc800,
     #fa713f
-  ); /* Gradiente de dourado para vermelho */
-  background-attachment: fixed; /* Fixar o fundo para não se mover com o conteúdo */
-  color: #fff; /* Texto claro */
+  ); 
+  background-attachment: fixed; 
+  color: #fff; 
 }
 
 .goku_image {
